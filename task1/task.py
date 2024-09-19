@@ -24,8 +24,7 @@ def dict_to_tree(tree_json):
     prev = -1
     current = [0]
     dict_to_tree_req(tree_json, data ,prev, current)
-    a = tree(data[0],data[1])
-    return a
+    return tree(data[0],data[1])
 
 print(dict_to_tree(tree_json))
 
